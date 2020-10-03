@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style-position: outside;
+    text-align: left;
+    margin: 0 30%
+}
+
+button {
+    margin: 20px 0;
+}
