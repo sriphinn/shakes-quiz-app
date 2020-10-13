@@ -74,7 +74,7 @@ function render() {
   if (STORE.view == "home") {
     content = `
       <section>
-        <img src="images/start.gif" alt="Court feast and toast in great hall">
+        <img src="imgs/start.gif" alt="Court feast and toast in great hall">
         <p>She was an outsider who would become the longest reigning female monarch in Russia's history. <br>Test your knowledge of Catherine the Great.</p>
         <h3>Let the festivities begin!</h3>
         <button id="start">Start Quiz</button>
@@ -99,7 +99,7 @@ function render() {
   } else if (STORE.view == "correct"){
     content = `
       <section>
-        <img src="images/correct.gif" alt="Huzzah!">
+        <img src="imgs/correct.gif" alt="Huzzah!">
         <h3>Huzzah! You shall live to see another day.<br>${STORE.questions[STORE.questionNumber].answerDetail}</h3>
         <button id="next">${STORE.questionNumber === STORE.questions.length -1 ? 'See Results': 'Next Question'}</button>
       </section>`
@@ -107,7 +107,7 @@ function render() {
   } else if (STORE.view == "wrong"){
     content = `
       <section>
-        <img src="images/wrong.gif" alt="What?! NO!">
+        <img src="imgs/wrong.gif" alt="What?! NO!">
         <h3>Your answer is <em>wrong.</em> ${STORE.questions[STORE.questionNumber].answerDetail}<br>Pray that I do not tire of you. </h3>
         <button id="next">${STORE.questionNumber === STORE.questions.length -1 ? 'See Results': 'Next Question'}</button>
       </section>`
@@ -116,7 +116,7 @@ function render() {
     if (STORE.score > 2) {
     content = `
       <section>
-        <img src="images/win.gif" alt="You have cheered me to no end. Bravo!">
+        <img src="imgs/win.gif" alt="You have cheered me to no end. Bravo!">
         <h3>You've reached the end of the quiz. <br>Your final score is ${STORE.score} out of ${STORE.questions.length} and merits your stay at court.</h3>
         <button id="replay">Play Again</button>
       </section>
@@ -124,7 +124,7 @@ function render() {
     } else if (STORE.score < 3) {
       content = `
         <section>
-          <img src="images/lose.gif" alt="You are slow of mind and wit.">
+          <img src="imgs/lose.gif" alt="You are slow of mind and wit.">
           <h3>You've reached the end of the quiz. Your abysmal score is ${STORE.score} out of ${STORE.questions.length} and you will be fed to the bears.</h3>
           <button id="replay">Play Again</button>
         </section>
