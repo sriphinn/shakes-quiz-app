@@ -6,3 +6,61 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+
+body, main {
+  font-family: 'EB Garamond', serif;
+  background-color: #102e30;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+h2, h3, h4 {
+  margin: 15px;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+  color: white;
+}
+
+h2, h5 {
+  color: #ffe11c;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+button {
+  background-color: #fa4d9d; 
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size: 24px;
+  padding: 10px 15px;
+  margin: 20px 0;
+}
+
+label {
+  line-height: 2.5;
+}
+
+@media all and (min-width: 800px) {
+
+  body, main {
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 50%;
+  }
+
+}
