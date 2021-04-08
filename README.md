@@ -16,7 +16,8 @@
 
 ## About The Project
 
-[<img src="images/the-great-quiz-demo.gif" alt="quiz-demo" width="600" height="400">](https://sriphinn.github.io/the-great-quiz-app/)
+[<img src="imgs/the-great-quiz-demo.gif" alt="quiz-demo">](https://sriphinn.github.io/the-great-quiz-app/)
+
 This is one of my first projects built during my Thinkful Software Engineering Bootcamp. I'm a fan of period pieces and love the ridiculousness of "The Great" by Tony McNamara. Fans of the show will understand the cheekiness of this quiz. 
 
 - Developed single-purpose template generation and event handler functions in JavaScript.
